@@ -1,0 +1,10 @@
+n = (input('digite qualquer coisa. determinaremos a calsse que ela pertence: '))
+print('pertence a classe',type(n))
+print('ela possui espaços ?',n.isspace())
+print('ela é imprimivél?',n.isprintable())
+print('ela é um número?',n.isnumeric())
+print('ela é um digito?',n.isdigit())
+print('ela é uma letra?',n.isalpha())
+# print(n.isascii())
+print('ela é um numero decimal?',n.isdecimal())
+
