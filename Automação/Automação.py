@@ -1,3 +1,5 @@
 import PyAutoGUI
-pyautogui.press("Win")
+PyAutoGUI.press('Win')
+PyAutoGUI.write()
+
 
